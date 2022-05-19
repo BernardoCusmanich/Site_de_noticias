@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Press+Start+2P&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Code', monospace;
+    background-color: #2D3436;
+    color: #fff;
+}
+
+header {
+    font-family: 'Press Start 2P', monospace;
+    background-color: black;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    background-color: #777777;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #111111;
+}
+
+section {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p {
+    word-spacing: 4px;
+    line-height: 140%;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 0px gray;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+img {
+    display: block;
+}
+
+footer {
+    background-color: #777777;
+    color: #FFF;
+    padding: 40px 30px 40px 30px;
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+a {
+    color: red;
+}
+
+.conteudo-noticia {
+    display: flex;
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.conteudo-topo {
+    width: 200px;
+    margin: 0 auto;
+    line-height: 1;
+    letter-spacing: 3px;
+    height: auto;
+}
+
+.header-topo {
+    margin: 0 auto;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 50px;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+}
+
+.container2 {
+    display: flex;
+}
+
+.texto-noticia {
+    padding-left: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem-noticia {
+    width: 100%;
+    height: 100%;
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.descricao-noticia {
+    font-weight: 300px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
